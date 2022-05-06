@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/developer-plus/element-core/issues"
   },
-  "homepage": "https://github.com/developer-plus/element-core#readme"
+  "homepage": "https://github.com/developer-plus/element-core#readme",
+  "gitHooks": {
+    "commit-msg": "node scripts/verifyCommit.js"
+  },
+  "devDependencies": {
+    "chalk": "^5.0.1",
+    "yorkie": "^2.0.0"
+  }
 }
