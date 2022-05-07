@@ -1,22 +1,8 @@
 {
-  "name": "element-core",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "lint": "eslint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/developer-plus/element-core.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/developer-plus/element-core/issues"
-  },
-  "homepage": "https://github.com/developer-plus/element-core#readme",
   "lint-staged": {
     "*.{vue,js,jsx,ts,tsx}": "eslint"
   },
